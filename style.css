@@ -150,10 +150,9 @@ a {
 
 #Experience > ul > li {
     list-style-type: none;
-    padding-left: 5rem;
-    font-size: large;
-    margin-left: 10px;
-    margin-right: 40px;
+    padding-right: 5rem;
+    padding-left: 2rem;
+    font-size: large; 
 }
 
 #Contact {
