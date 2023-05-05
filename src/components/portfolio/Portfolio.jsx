@@ -1,7 +1,29 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/gtg.png'
+import IMG1 from '../../assets/gtg2.png'
 import IMG2 from '../../assets/jme.png'
+import IMG3 from '../../assets/ih.png'
+
+const data = [
+  {
+    id: 1,
+    image:  IMG1,
+    title: 'Geo-To-Go',
+    github:'https://github.com/PrinceM95/Geo-To-Go/tree/main/geotogo-client',
+  },
+  {
+    id: 2,
+    image:  IMG2,
+    title: 'Jacs Mystery Educator',
+    github:'https://github.com/2022-October-Java-PT/system-react-mystery-educator-repo',
+  },
+  {
+    id: 3,
+    image:  IMG3,
+    title: 'Island Hopping Adventures',
+    github:'https://github.com/2022-October-Java-PT/system-react-mystery-educator-repo',
+  }
+]
 
 const portfolio = () => {
   return (
@@ -10,46 +32,21 @@ const portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src={IMG1} alt="" />
-          </div>
-          <h3>Geo-To-Go</h3>
+        {
+          data.map(({id, image, title, github}) => {
+            return (
+              <article key={id} className='portfolio__item'>
+              <div className="portfolio__item-image">
+                <img src={image} alt={title} />
+              </div>
+          <h3>{title}</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com" className='btn' target='_blank'>Github</a>
-            <a href="https://github.com" className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href={github} className='btn' target='_blank'>Github</a>
           </div>
         </article>
-
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src={IMG2} alt="" />
-          </div>
-          <h3>Jac's Mystery Educator</h3>
-          <div className="portfolio__item-cta">
-            <a href="https://github.com" className='btn' target='_blank'>Github</a>
-            <a href="https://github.com" className='btn btn-primary' target='_blank'>Live Demo</a>
-          </div>
-        </article>
-{/* 
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src={IMG3} alt="" />
-          </div>
-          <h3>Portfolio Item Title</h3>
-          <a href="https://github.com" className='btn' target='_blank'>Github</a>
-          <a href="https://github.com" className='btn btn-primary' target='_blank'>Live Demo</a>
-        </article>
-
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src={IMG4} alt="" />
-          </div>
-          <h3>Portfolio Item Title</h3>
-          <a href="https://github.com" className='btn' target='_blank'>Github</a>
-          <a href="https://github.com" className='btn btn-primary' target='_blank'>Live Demo</a>
-        </article> */}
-
+            )
+          })
+        }
       </div>
     </section>
   )
