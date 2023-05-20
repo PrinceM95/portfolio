@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/princem95.github.io/static/css/main.3304b9e1.css",
+    "main.js": "/princem95.github.io/static/js/main.a87d5466.js",
+    "static/media/me.png": "/princem95.github.io/static/media/me.f3acd987450add6eb8bd.png",
+    "static/media/jme.png": "/princem95.github.io/static/media/jme.102370c25b178482de60.png",
+    "static/media/gtg2.png": "/princem95.github.io/static/media/gtg2.7906236a2724b9a068e9.png",
+    "static/media/ih.png": "/princem95.github.io/static/media/ih.59da7bb2a8fc2999ceda.png",
+    "static/media/resume.pdf": "/princem95.github.io/static/media/resume.763d9376426bff79796e.pdf",
+    "index.html": "/princem95.github.io/index.html",
+    "main.3304b9e1.css.map": "/princem95.github.io/static/css/main.3304b9e1.css.map",
+    "main.a87d5466.js.map": "/princem95.github.io/static/js/main.a87d5466.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3304b9e1.css",
+    "static/js/main.a87d5466.js"
+  ]
+}
