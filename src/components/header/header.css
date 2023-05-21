@@ -57,12 +57,29 @@ header {
 
 .scroll__down {
     position: absolute;
-    right: -3.3rem;
-    bottom: 4rem;
+    right: -3.0rem;
+    bottom: 3rem;
     transform: rotate(90deg);
     font-weight: 200;
     font-size: 0.9rem;
     margin: 3rem;
+}
+
+.arrow {
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+    /* transform: rotate(90deg); */
+    font-weight: 25;
+    font-size: 6rem;
+    margin: 3rem;
+    animation: blinker 4s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+         opacity: 0;
+    }
 }
 
 /* ============== MEDIA QUERIES (MEDIUM DEVICES) ================= */

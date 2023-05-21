@@ -10,6 +10,7 @@
     border-radius: 2rem;
     border: 1px solid transparent;
     margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .experience__container > div:hover {
