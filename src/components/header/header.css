@@ -29,7 +29,7 @@ header {
     gap: 0.7rem;
     position: absolute;
     left: 0;
-    bottom: 3rem;
+    bottom: 8rem;
     margin: 2rem;
 }
 
@@ -58,7 +58,7 @@ header {
 .scroll__down {
     position: absolute;
     right: -3.0rem;
-    bottom: 3rem;
+    bottom: 8rem;
     transform: rotate(90deg);
     font-weight: 200;
     font-size: 0.9rem;
