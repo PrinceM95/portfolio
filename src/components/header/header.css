@@ -57,13 +57,13 @@ header {
 
 .scroll__down {
     position: absolute;
-    right: -4.0rem;
+    right: -3.6rem;
     bottom: 8rem;
     transform: rotate(90deg);
     font-weight: 200;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     margin: 3rem;
-    animation: blinker 3s linear infinite;
+    animation: blinker 5s linear infinite;
 }
 
 @keyframes blinker {
