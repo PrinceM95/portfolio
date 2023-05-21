@@ -96,7 +96,8 @@ header {
     }
 
     .header__socials,
-    .scroll_down {
+    .scroll_down,
+    .arrow {
         display: none;
     }
 }
