@@ -55,7 +55,7 @@ header {
 
 /* ================== SCROLL DOWN =============== */
 
-/* .scroll__down {
+.scroll__down {
     position: absolute;
     right: -3.0rem;
     bottom: 3rem;
@@ -63,12 +63,19 @@ header {
     font-weight: 200;
     font-size: 0.9rem;
     margin: 3rem;
-} */
+    animation: blinker 3s linear infinite;
+}
 
-.scroll__down {
+@keyframes blinker {
+    50% {
+         opacity: 0;
+    }
+}
+
+/* .scroll__down {
     position: absolute;
-    right: -1.6rem;
-    bottom: 0.1rem;
+    right: -1.1rem;
+    bottom: 2.6rem;
     font-weight: 25;
     font-size: 6rem;
     margin: 3rem;
@@ -79,7 +86,7 @@ header {
     50% {
          opacity: 0;
     }
-}
+} */
 
 /* ============== MEDIA QUERIES (MEDIUM DEVICES) ================= */
 @media screen and (max-width: 1024px) {
