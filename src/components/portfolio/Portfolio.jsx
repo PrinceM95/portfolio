@@ -9,7 +9,7 @@ const data = [
     id: 1,
     image:  IMG1,
     title: 'Geo-To-Go',
-    github:'https://github.com/PrinceM95/Geo-To-Go/tree/main/geotogo-client',
+    github:'https://github.com/PrinceM95/Geo-To-Go',
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const data = [
     id: 3,
     image:  IMG3,
     title: 'Island Hopping Adventures',
-    github:'https://github.com/2022-October-Java-PT/system-react-mystery-educator-repo',
+    github:'https://github.com/2022-October-Java-PT-Classroom/first-team-project-team-island-hnpw',
   }
 ]
 
