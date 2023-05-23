@@ -21,9 +21,9 @@ const footer = () => {
         <a href="https://github.com/PrinceM95"><BsGithub/></a>
       </div>
 
-      <div className="footer__copyright">
+      {/* <div className="footer__copyright">
         <small>&copy; Prince Moutima Portfolio. All rights reserved</small>
-      </div>
+      </div> */}
     </footer>
   )
 }
