@@ -17,7 +17,7 @@
     --color-primary-variant: rgba(77, 181, 255, 0.4);
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
-    --color-purple: purple;
+    --color-apricot: #CD5C5C;
 
     --transition: all 400ms ease;
 
@@ -90,7 +90,7 @@ a {
 }
 
 a:hover {
-    color: var(--color-purple);
+    color: var(--color-apricot);
 }
 
 .btn {
