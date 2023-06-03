@@ -20,7 +20,6 @@ const Header = () => {
           </div>
 
         <a className='scroll__down'>Scroll Down</a>
-        {/* <a href="#arrow" className='arrow'>↓...</a> */}
       </div>
     </header>
   )
