@@ -2,6 +2,13 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.btn {
+    align-items: center;
 }
 
 .portfolio__item {
@@ -22,6 +29,7 @@
 .portfolio__item-image {
     border-radius: 1.5rem;
     overflow: hidden;
+    margin: 20px;
 }
 
 .portfolio__item h3 {
