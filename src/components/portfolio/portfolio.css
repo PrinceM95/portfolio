@@ -34,6 +34,7 @@
 
 .portfolio__item h3 {
     margin: 1.2 0 2rem;
+    text-decoration: underline;
 }
 
 .portfolio__item-cta {

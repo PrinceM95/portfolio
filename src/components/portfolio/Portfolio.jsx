@@ -4,6 +4,7 @@ import IMG1 from '../../assets/gtg2.png'
 import IMG2 from '../../assets/jme.png'
 import IMG3 from '../../assets/ih.png'
 
+
 const data = [
   {
     id: 1,
