@@ -7,10 +7,6 @@
     text-align: center;
 }
 
-.btn {
-    align-items: center;
-}
-
 .portfolio__item {
     background: var(--color-bg-variant);
     padding: 0.8rem;
@@ -48,7 +44,7 @@
     .portfolio__container {
         grid-template-columns: 1fr 1fr;
         gap: 1.2rem;
-        font-size: 12px;
+        font-size: 14px;
         text-align: center;
     }
 } 
@@ -58,7 +54,7 @@
     .portfolio__container {
         grid-template-columns: 1fr;
         gap: 1rem;
-        font-size: 9px;
+        font-size: 12px;
         text-align: center;
     }
 }
