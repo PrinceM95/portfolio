@@ -13,7 +13,7 @@
 
 .portfolio__item {
     background: var(--color-bg-variant);
-    padding: 1.3rem;
+    padding: 0.8rem;
     border-radius:2rem;
     border: 1px solid transparent;
     transition: var(--transition);
@@ -29,7 +29,7 @@
 .portfolio__item-image {
     border-radius: 1.5rem;
     overflow: hidden;
-    margin: 20px;
+    margin: 12px;
 }
 
 .portfolio__item h3 {
@@ -37,9 +37,9 @@
 }
 
 .portfolio__item-cta {
-    display: flex;
+    display: center;
     gap: 1rem;
-    margin-bottom: 1rem;
+    padding: 2rem;
 }
 
 /* ============== MEDIA QUERIES (MEDIUM DEVICES) ================= */
