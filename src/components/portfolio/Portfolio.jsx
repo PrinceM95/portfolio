@@ -14,12 +14,14 @@ const GTG = [
   {url:'https://i.postimg.cc/pLRbd4vz/gtg6.png', title: 'gtg6' },
   {url:'https://i.postimg.cc/HsQ1dHqT/gtg7.png', title: 'gtg7' },
   {url:'https://i.postimg.cc/0yngKn53/gtg8.png', title: 'gtg8' },
-  {url:'https://i.postimg.cc/d0Vb2CL0/gtg9.png', title: 'gtg9' },
+  {url:'https://i.postimg.cc/d0Vb2CL0/gtg9.png', title: 'gtg9' }
 ];
 const JME = [
-  {url:'https://media.sproutsocial.com/uploads/2017/02/10x-featured-social-media-image-size.png', title: 'gtg' },
-  {url:'https://imgv3.fotor.com/images/cover-photo-image/a-beautiful-girl-with-gray-hair-and-lucxy-neckless-generated-by-Fotor-AI.jpg', title: 'gtg1' },
-  {url: 'https://media.istockphoto.com/id/1093110112/photo/picturesque-morning-in-plitvice-national-park-colorful-spring-scene-of-green-forest-with-pure.jpg?s=612x612&w=0&k=20&c=lpQ1sQI49bYbTp9WQ_EfVltAqSP1DXg0Ia7APTjjxz4=', title: 'gtg1' },
+  {url:'https://i.postimg.cc/PrLzw5Xk/jme.png', title: 'jme' },
+  {url:'https://i.postimg.cc/GmGFXgT7/jme2.png', title: 'jme2' },
+  {url: 'https://i.postimg.cc/yNKFthFV/jme3.png', title: 'jme3' },
+  {url: 'https://i.postimg.cc/CLWCHp5n/jme4.png', title: 'jme4' }
+
 ];
 const IHA = [
   {url: 'https://media.istockphoto.com/id/1093110112/photo/picturesque-morning-in-plitvice-national-park-colorful-spring-scene-of-green-forest-with-pure.jpg?s=612x612&w=0&k=20&c=lpQ1sQI49bYbTp9WQ_EfVltAqSP1DXg0Ia7APTjjxz4=', title: 'gtg1' },
