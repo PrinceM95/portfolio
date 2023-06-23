@@ -1,6 +1,6 @@
 .portfolio__container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 2fr);
     gap: 1rem;
     color: white;
     font-size: 18px;
@@ -56,11 +56,5 @@
         gap: 1rem;
         font-size: 12px;
         text-align: center;
-    }
-
-    .containerStyles {
-        width: '25px';
-        height: '15px';
-        margin: '0 auto';
     }
 }

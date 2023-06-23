@@ -34,7 +34,6 @@ const ImageSlider = ({ slides }) => {
         color: "#fff",
         zIndex: 1,
         cursor: "pointer",
-
     };
     const dotsContainerStyles = {
         display: 'flex',

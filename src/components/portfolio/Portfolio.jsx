@@ -26,8 +26,8 @@ const IHA = [
 ];
 
 const containerStyles = {
-  width: '800px',
-  height: '400px',
+  width: '275px',
+  height: '200px',
   margin: '0 auto'
 }
 const data = [
@@ -66,6 +66,7 @@ return (
           return (
             <article key={id} className='portfolio__item'>
             <div className="portfolio__item-image">
+            {/* <div className="container__styles"> */}
             <div style={containerStyles}>
             <ImageSlider slides={image} />
               </div>
