@@ -1,0 +1,20 @@
+
+/* ============== MEDIA QUERIES (MEDIUM DEVICES) ================= */
+@media screen and (max-width: 1024px) {
+    .sliderStyles {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+        font-size: 14px;
+        text-align: center;
+    }
+} 
+
+/* ============== MEDIA QUERIES (SMALL DEVICES) ================= */
+@media screen and (max-width: 600px) {
+    .sliderStyles {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        font-size: 12px;
+        text-align: center;
+    }
+}
