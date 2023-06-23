@@ -19,8 +19,8 @@ const ImageSlider = ({ slides }) => {
         position: 'absolute',
         top: '50%',
         transform: 'translate(0, -50%)',
-        left: "32px",
-        fontSize: "45px",
+        left: "-35px",
+        fontSize: "35px",
         color: "#fff",
         zIndex: 1,
         cursor: "pointer",
@@ -29,11 +29,12 @@ const ImageSlider = ({ slides }) => {
         position: 'absolute',
         top: '50%',
         transform: 'translate(0, -50%)',
-        right: "32px",
-        fontSize: "45px",
+        right: "-35px",
+        fontSize: "35px",
         color: "#fff",
         zIndex: 1,
         cursor: "pointer",
+
     };
     const dotsContainerStyles = {
         display: 'flex',
@@ -42,7 +43,7 @@ const ImageSlider = ({ slides }) => {
     const dotStyles = {
         margin: '0 3px',
         cursor: 'pointer',
-        fontSize: '20px'
+        fontSize: '10px'
     }
 
     const goToPrevious = () => {
@@ -62,9 +63,9 @@ const ImageSlider = ({ slides }) => {
     return (
         <div style={sliderStyles}>
             <div style={leftArrowStyles} onClick={goToPrevious}>
-                ⇦</div>
+            ◄</div>
         <div style={rightArrowStyles} onClick={goToNext}>
-            ⇨</div>
+        ►</div>
         <div style={slideStyles}></div>
         <div style={dotsContainerStyles}>
             {slides.map((slide, slideIndex) => (

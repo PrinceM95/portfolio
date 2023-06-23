@@ -24,8 +24,8 @@ const JME = [
 
 ];
 const IHA = [
-  {url: 'https://media.istockphoto.com/id/1093110112/photo/picturesque-morning-in-plitvice-national-park-colorful-spring-scene-of-green-forest-with-pure.jpg?s=612x612&w=0&k=20&c=lpQ1sQI49bYbTp9WQ_EfVltAqSP1DXg0Ia7APTjjxz4=', title: 'gtg1' },
-  {url:'https://imgv3.fotor.com/images/cover-photo-image/a-beautiful-girl-with-gray-hair-and-lucxy-neckless-generated-by-Fotor-AI.jpg', title: 'gtg1' },
+  {url: 'https://i.postimg.cc/RC1qbrgn/Screenshot-64.png', title: 'iha' },
+  {url:'https://i.postimg.cc/X7VqR2P1/Screenshot-65.png', title: 'iha2' },
 ];
 
 const containerStyles = {
