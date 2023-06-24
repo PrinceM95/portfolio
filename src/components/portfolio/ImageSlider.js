@@ -15,27 +15,27 @@ const ImageSlider = ({ slides }) => {
         backgroundSize: "cover",
         backgroundImage: `url(${slides[currentIndex].url})`,
     };
-    const leftArrowStyles = {
-        position: 'absolute',
-        top: '86%',
-        transform: 'translate(0, -50%)',
-        left: "5px",
-        fontSize: "55px",
-        color: "white",
-        zIndex: 1,
-        cursor: "pointer",
-        animation: "blinker 4s linear infinite"
-    };
+    // const leftArrowStyles = {
+    //     position: 'absolute',
+    //     top: '86%',
+    //     transform: 'translate(0, -50%)',
+    //     left: "5px",
+    //     fontSize: "55px",
+    //     color: "white",
+    //     zIndex: 1,
+    //     cursor: "pointer",
+    //     animation: "blinker 4s linear infinite"
+    // };
     const rightArrowStyles = {
         position: 'absolute',
-        top: '86%',
+        top: '83%',
         transform: 'translate(0, -50%)',
-        right: "5px",
+        right: "-1px",
         fontSize: "55px",
         color: "white",
         zIndex: 1,
         cursor: "pointer",
-        animation: "blinker 4s linear infinite"
+        animation: "blinker 2s linear infinite"
     };
     const dotsContainerStyles = {
         display: 'flex',
@@ -63,8 +63,8 @@ const ImageSlider = ({ slides }) => {
 
     return (
         <div style={sliderStyles}>
-            <div style={leftArrowStyles} onClick={goToPrevious}>
-            ❮</div>
+            {/* <div style={leftArrowStyles} onClick={goToPrevious}>
+            ❮</div> */}
         <div style={rightArrowStyles} onClick={goToNext}>
         ❯</div>
         <div style={slideStyles}></div>
