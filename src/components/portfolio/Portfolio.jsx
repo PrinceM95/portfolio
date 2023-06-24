@@ -26,10 +26,12 @@ const IHA = [
 ];
 
 const containerStyles = {
-  width: '275px',
+  width: '280px',
   height: '200px',
   margin: '0 auto'
 }
+
+
 const data = [
   {
     id: 1,

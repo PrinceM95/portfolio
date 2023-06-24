@@ -24,6 +24,7 @@ const ImageSlider = ({ slides }) => {
         color: "#fff",
         zIndex: 1,
         cursor: "pointer",
+        animation: "blinker 3s linear infinite"
     };
     const rightArrowStyles = {
         position: 'absolute',
@@ -34,6 +35,7 @@ const ImageSlider = ({ slides }) => {
         color: "#fff",
         zIndex: 1,
         cursor: "pointer",
+        animation: "blinker 3s linear infinite"
     };
     const dotsContainerStyles = {
         display: 'flex',
