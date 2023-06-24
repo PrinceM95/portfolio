@@ -17,25 +17,25 @@ const ImageSlider = ({ slides }) => {
     };
     const leftArrowStyles = {
         position: 'absolute',
-        top: '50%',
+        top: '86%',
         transform: 'translate(0, -50%)',
-        left: "-35px",
+        left: "5px",
         fontSize: "35px",
-        color: "#fff",
+        color: "white",
         zIndex: 1,
         cursor: "pointer",
-        animation: "blinker 3s linear infinite"
+        animation: "blinker 5s linear infinite"
     };
     const rightArrowStyles = {
         position: 'absolute',
-        top: '50%',
+        top: '86%',
         transform: 'translate(0, -50%)',
-        right: "-35px",
+        right: "5px",
         fontSize: "35px",
-        color: "#fff",
+        color: "white",
         zIndex: 1,
         cursor: "pointer",
-        animation: "blinker 3s linear infinite"
+        animation: "blinker 5s linear infinite"
     };
     const dotsContainerStyles = {
         display: 'flex',
