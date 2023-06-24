@@ -20,22 +20,22 @@ const ImageSlider = ({ slides }) => {
         top: '86%',
         transform: 'translate(0, -50%)',
         left: "5px",
-        fontSize: "35px",
+        fontSize: "55px",
         color: "white",
         zIndex: 1,
         cursor: "pointer",
-        animation: "blinker 3s linear infinite"
+        animation: "blinker 4s linear infinite"
     };
     const rightArrowStyles = {
         position: 'absolute',
         top: '86%',
         transform: 'translate(0, -50%)',
         right: "5px",
-        fontSize: "35px",
+        fontSize: "55px",
         color: "white",
         zIndex: 1,
         cursor: "pointer",
-        animation: "blinker 3s linear infinite"
+        animation: "blinker 4s linear infinite"
     };
     const dotsContainerStyles = {
         display: 'flex',
@@ -64,9 +64,9 @@ const ImageSlider = ({ slides }) => {
     return (
         <div style={sliderStyles}>
             <div style={leftArrowStyles} onClick={goToPrevious}>
-            ⇦</div>
+            ❮</div>
         <div style={rightArrowStyles} onClick={goToNext}>
-        ⇨</div>
+        ❯</div>
         <div style={slideStyles}></div>
         <div style={dotsContainerStyles}>
             {slides.map((slide, slideIndex) => (
