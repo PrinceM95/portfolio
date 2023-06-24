@@ -30,7 +30,7 @@ const ImageSlider = ({ slides }) => {
         position: 'absolute',
         top: '83%',
         transform: 'translate(0, -50%)',
-        right: "-1px",
+        right: "2px",
         fontSize: "55px",
         color: "white",
         zIndex: 1,
