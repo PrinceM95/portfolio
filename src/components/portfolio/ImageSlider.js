@@ -15,17 +15,7 @@ const ImageSlider = ({ slides }) => {
         backgroundSize: "cover",
         backgroundImage: `url(${slides[currentIndex].url})`,
     };
-    // const leftArrowStyles = {
-    //     position: 'absolute',
-    //     top: '86%',
-    //     transform: 'translate(0, -50%)',
-    //     left: "5px",
-    //     fontSize: "55px",
-    //     color: "white",
-    //     zIndex: 1,
-    //     cursor: "pointer",
-    //     animation: "blinker 4s linear infinite"
-    // };
+    
     const rightArrowStyles = {
         position: 'absolute',
         top: '83%',
