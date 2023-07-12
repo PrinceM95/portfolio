@@ -5,7 +5,7 @@ const ImageSlider = ({ slides }) => {
 
     const sliderStyles = {
         height: '100%',
-        position: "relative",
+        position: "fixed",
     };
     const slideStyles = {
         width: '100%',

@@ -26,7 +26,7 @@ const IHA = [
 ];
 
 const containerStyles = {
-  width: '290px',
+  width: '280px',
   height: '200px',
   margin: '0 auto'
 }
