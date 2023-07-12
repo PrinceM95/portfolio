@@ -26,7 +26,7 @@ const IHA = [
 ];
 
 const containerStyles = {
-  width: '280px',
+  width: '290px',
   height: '200px',
   margin: '0 auto'
 }
@@ -35,8 +35,8 @@ const containerStyles = {
 const data = [
   {
     id: 1,
-    image: GTG,
     title: 'Geo-To-Go',
+    image: GTG,
     github:'https://github.com/PrinceM95/Geo-To-Go',
     bio: 'Geo-To-Go is an educational platform dedicated to enlightening individuals about countries, continents, states, capitals, and general knowledge associated with geography. With a primary focus on elementary to middle school learners, this website offers valuable resources for anyone seeking to enhance their understanding of capitals and flags. Whether you are a student, educator, or simply curious about geography, Geo-To-Go provides an accessible and enriching experience for all.'
   },
@@ -64,16 +64,16 @@ return (
 
     <div className="container portfolio__container">
       {
-        data.map(({id, image, title, github, bio}) => {
+        data.map(({id, title, image, github, bio}) => {
           return (
             <article key={id} className='portfolio__item'>
             <div className="portfolio__item-image">
-            {/* <div className="container__styles"> */}
             <div style={containerStyles}>
+            {/* <h4>{title}</h4> */}
             <ImageSlider slides={image} />
               </div>
             </div>
-        <h3>{title}</h3>
+        {/* <h3>{title}</h3> */}
         <p1>{bio}</p1>
         <div className="portfolio__item-cta">
           <a href={github} className='btn' target='_blank'>Github Link</a>

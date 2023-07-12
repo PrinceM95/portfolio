@@ -25,10 +25,11 @@
 .portfolio__item-image {
     border-radius: 1.5rem;
     overflow: hidden;
-    margin:9px;
+    margin: 40px;
+    margin-top: 0rem;
 }
 
-.portfolio__item h3 {
+.portfolio__item h4 {
     margin: 1.2 0 2rem;
     text-decoration: underline;
 }
