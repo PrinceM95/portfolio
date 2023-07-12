@@ -2,8 +2,8 @@ import React from 'react'
 import './contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
 import {BsLinkedin} from 'react-icons/bs'
-import {useRef} from 'react';
-import emailjs from 'emailjs-com';
+import React, { useRef } from 'react';
+import emailjs from 'emailjs-com'
 
 
 const Contact = () => {
@@ -16,6 +16,8 @@ const Contact = () => {
     
     e.target.reset()
   };
+
+
   return (
     <section id='contact'>
       <h5>Get In Touch</h5>
@@ -36,7 +38,8 @@ const Contact = () => {
             <a href="https://www.linkedin.com/in/princemoutima/" target="_blank">Send a message</a>
           </article>
         </div>
-        <form ref={form}>
+
+        <form ref={form} onSubmit={sendEmail}>
           <input type="text" name='name' placeholder='Your Full Name' required />
           <input type="email" name='email' placeholder='Your Email' required />
           <textarea name="message" rows="7" placeholders='Your Message' required ></textarea>
