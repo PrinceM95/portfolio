@@ -6,6 +6,7 @@ const ImageSlider = ({ slides }) => {
     const sliderStyles = {
         height: '100%',
         position: "relative",
+        top: "-15px"
     };
     const slideStyles = {
         width: '100%',
@@ -15,7 +16,6 @@ const ImageSlider = ({ slides }) => {
         backgroundSize: "cover",
         backgroundImage: `url(${slides[currentIndex].url})`,
     };
-    
     const rightArrowStyles = {
         position: 'absolute',
         top: '83%',
@@ -27,14 +27,15 @@ const ImageSlider = ({ slides }) => {
         cursor: "pointer",
         animation: "blinker 2s linear infinite"
     };
+
     const dotsContainerStyles = {
         display: 'flex',
-        justifyContent: 'center'
+        justifyContent: 'center',
     }
     const dotStyles = {
-        margin: '0 3px',
+        margin: '0 8px',
         cursor: 'pointer',
-        fontSize: '10px'
+        fontSize: '14px',
     }
 
     const goToPrevious = () => {
@@ -62,7 +63,7 @@ const ImageSlider = ({ slides }) => {
             {slides.map((slide, slideIndex) => (
                 <div key={slideIndex} style={dotStyles} 
                 onClick={() => goToSlide(slideIndex)}>
-                ⚫
+                ○
                 </div>
             ))}
         </div>

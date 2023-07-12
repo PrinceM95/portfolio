@@ -64,7 +64,7 @@ return (
 
     <div className="container portfolio__container">
       {
-        data.map(({id, title, image, github, bio}) => {
+        data.map(({id, title, image, bio, github}) => {
           return (
             <article key={id} className='portfolio__item'>
             <div className="portfolio__item-image">
@@ -73,7 +73,7 @@ return (
             <ImageSlider slides={image} />
               </div>
             </div>
-        {/* <h3>{title}</h3> */}
+        <h3>{title}</h3>
         <p1>{bio}</p1>
         <div className="portfolio__item-cta">
           <a href={github} className='btn' target='_blank'>Github Link</a>
