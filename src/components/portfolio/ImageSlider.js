@@ -35,7 +35,7 @@ const ImageSlider = ({ slides }) => {
     const dotStyles = {
         margin: '0 8px',
         cursor: 'pointer',
-        fontSize: '14px',
+        fontSize: '12px',
     }
 
     const goToPrevious = () => {
