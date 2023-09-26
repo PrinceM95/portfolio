@@ -22,20 +22,21 @@ const About = () => {
               <article className='about__card'>
                 <FaAward className='about__icon'/>
                 <h5>Experience</h5>
-                <small> >1 Year </small>
+                <small> 1 Year </small>
               </article>
 
               <article className='about__card'>
                 <VscFolderLibrary className='about__icon'/>
                 <h5>Projects</h5>
-                <small> >1 Year </small>
+                <small> 1 Year </small>
               </article>
             </div>
 
             <p>
-            An eager, dedicated learner transitioning into a Web Development role after completing We Can Code IT Bootcamp.  
-            Hands-on project experience building both the front-end and back-end of web apps using Node.js, React.js, 
-            ASP.NET, and other frameworks.
+            A highly motivated and versatile professional with a strong foundation in web development. 
+            I am eager to contribute my skills and drive to deliver innovative and efficient solutions. With a proven ability to quickly learn new technologies 
+            and adapt to evolving project requirements, I am ready to thrive in a collaborative environment and make a meaningful impact and contribute to
+            cutting-edge projects.
             </p>
 
             <a href="#contact" className='btn btn-primary'>Let's Talk</a>
